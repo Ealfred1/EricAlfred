@@ -4,7 +4,7 @@
 
 @layer components {
   body {
-    @apply bg-[#060417];
+    @apply bg-[#060417] text-white;
   }
 
   .navlink {
@@ -42,6 +42,22 @@
     transform: translateX(0);
   }
 
+  .hero-container {
+    @apply flex items-center relative;
+  }
 
+  .hero-content {
+    flex: 1;
+  }
 
+  .hero-img > div {
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+  }
+
+  .hero-img > div > img {
+    width: 25rem;
+    transition: all 0.3s ease;
+  }
 }

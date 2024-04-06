@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar/Navbar'
+import Hero from './components/Hero/Hero'
 
 const App = () => {
 
@@ -7,6 +8,9 @@ const App = () => {
     <>
       <div className="w-full h-screen">
         <Navbar />
+        <div className="max-w-5xl mx-auto relative px-4">
+          <Hero />
+        </div>
       </div>
     </>
   )
