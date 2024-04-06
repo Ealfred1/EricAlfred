@@ -21,7 +21,7 @@
   }
 
   .menu-btn {
-    @apply w-[2.5rem] h-[2.5rem] text-[1.2rem] flex items-center justify-center border-none rounded-lg text-white cursor-pointer sm:hidden hover:text-[#a993fe] hover:bg-black hover:border hover:border-[#a993fe];
+    @apply w-[2.5rem] h-[2.5rem] text-[1.2rem] flex items-center justify-center border-none rounded-lg text-white cursor-pointer lg:hidden hover:text-[#a993fe] hover:bg-black hover:border hover:border-[#a993fe];
     background: linear-gradient(90deg, #a993fe -0.13%,  #7e61e7 99.87%);
   }
 
@@ -43,7 +43,20 @@
   }
 
   .hero-container {
-    @apply flex items-center relative;
+    @apply flex items-center relative flex-col lg:flex-row;
+  }
+
+  .hero-container::after, .hero-container::before {
+    content: '';
+    @apply md:w-[18rem] md:h-[18rem] lg:w-[28.125rem] lg:h-[28.125rem] rounded-[28.125rem] bg-[#7c66e3] absolute z-[-1] blur-[225px];
+  }
+
+  .hero-container::after {
+    @apply md:top-0 md:left-0 lg:top-[-3rem] lg:left-[-5rem];
+  }
+
+  .hero-container::before {
+    @apply md:bottom-[2rem] lg:bottom-[-3rem] right-[0rem]
   }
 
   .hero-content {
@@ -51,13 +64,27 @@
   }
 
   .hero-img > div {
-    display: flex;
+    /*display: flex;
     align-items: flex-end;
-    gap: 2rem;
+    gap: 2rem;*/
+    @apply flex items-end gap-[1rem] md:gap-[2rem]; 
   }
 
   .hero-img > div > img {
-    width: 25rem;
-    transition: all 0.3s ease;
+    /*width: 25rem;
+    transition: all 0.3s ease;*/
+    @apply w-[16rem] md:w-[25rem] transition duration-300;
+  }
+
+  .tech-icon {
+    @apply w-[3.3rem] h-[3.3rem] md:w-[4rem] md:h-[4rem] lg:w-[5rem] lg:h-[5rem] flex items-center justify-center text-center rounded-[0.65rem] border border-[#6852ba];
+  }
+
+  .tech-icon img {
+    @apply w-[2rem] md:w-[2.5rem] lg:w-[3rem] h-auto transition duration-300;
+  }
+
+  .hero-img > div img:hover, .tech-icon img:hover {
+    @apply translate-y-[-0.5rem];
   }
 }

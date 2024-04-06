@@ -10,17 +10,17 @@ const Hero = () => {
 	return (
 		<section className="hero-container">
 			<div className="hero-content">
-				<h2 className="text-[3.8rem] font-bold mb-[1.5rem] leading-[5rem]">Crafting Digital Experiences with Passion</h2>
-				<p className="w-[80%] text-[1rem] font-semibold leading-[2rem]">
+				<h2 className="text-[2.2rem] leading-[3rem] md:text-[3rem] text-center lg:text-left mt-[3rem] lg:mt-0 md:leading-[4rem] lg:text-[3.8rem] font-bold mb-[1.5rem] lg:leading-[5rem]">Crafting Digital Experiences with Passion</h2>
+				<p className="text-[0.8rem] leading-[1.3rem] w-auto text-center lg:text-left lg:w-[80%] md:text-[0.9rem] md:leading-[1.6rem] lg:text-[1rem] font-semibold lg:leading-[2rem]">
 					Passionate Frontend Web Developer | Transforming ideas into Seamless and Visually Stunning Web Solutions
 				</p>
 			</div>
-			<div className="flex-1 flex flex-col items-center gap-[2rem] mt-[2rem] hero-img">
+			<div className="flex-1 flex flex-col items-center gap-[1rem] md:gap-[2rem] my-[2rem] lg:mt-[2rem] hero-img">
 				<div>
 					<div className="tech-icon">
-						<img src={ReactIcon} alt="Hero Image" />
+						<img src={ReactIcon} alt="React Icon" />
 					</div>
-					<img src={Memoji} alt="React Icon" />
+					<img src={Memoji} alt="Memoji" className="rounded-3xl" />
 				</div>
 				<div>
 					<div className="tech-icon">
