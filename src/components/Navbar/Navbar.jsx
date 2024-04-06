@@ -19,11 +19,12 @@ const Navbar = () => {
 
 					<ul className="flex items-center gap-2 space-x-10 hidden md:flex">
 						<li className="navlink"><a href="#home">Home</a></li>
-						<li className="navlink"><a href="#home">Skills</a></li>
-						<li className="navlink"><a href="#home">Projects</a></li>
-						<li className="navlink"><a href="#home">Contact Me</a></li>
+						<li className="navlink"><a href="#skills">Skills</a></li>
+						<li className="navlink"><a href="#services">Services</a></li>
+						<li className="navlink"><a href="#projects">Projects</a></li>
+						<li className="navlink"><a href="#contact">Contact Me</a></li>
 					</ul>
-
+					
 					<button className="menu-btn" onClick={toggleMenu}><span className={`pi ${openMenu ? 'pi-times' : 'pi-bars'} text-[1rem]`}></span></button>
 				</div>
 			</nav>

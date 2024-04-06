@@ -10,9 +10,10 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
 					</div>
 					<ul className="flex flex-col gap-4 ml-2 space-y-4">
 						<li className="navlink"><a href="#home">Home</a></li>
-						<li className="navlink"><a href="#home">Skills</a></li>
-						<li className="navlink"><a href="#home">Projects</a></li>
-						<li className="navlink"><a href="#home">Contact Me</a></li>
+						<li className="navlink"><a href="#skills">Skills</a></li>
+						<li className="navlink"><a href="#services">Services</a></li>
+						<li className="navlink"><a href="#projects">Projects</a></li>
+						<li className="navlink"><a href="#contact">Contact Me</a></li>
 					</ul>
 				</div>
 			</div>
