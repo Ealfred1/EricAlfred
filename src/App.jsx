@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import Navbar from './components/Navbar/Navbar'
 
 const App = () => {
 
   return (
     <>
-      <div className="">
-        hello world!
+      <div className="w-full h-screen">
+        <Navbar />
       </div>
     </>
   )
