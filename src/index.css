@@ -50,12 +50,12 @@ html {
     @apply flex items-center mb-48 relative flex-col lg:flex-row;
   }
 
-  /*@media screen and (max-width: 640px) {
+  @media screen and (max-width: 640px) {
     .hero-container {
       @apply overflow-x-hidden;
     }
   }
-*/
+
   .hero-container::after, .hero-container::before {
     content: '';
     @apply md:w-[18rem] md:h-[18rem] lg:w-[28.125rem] lg:h-[28.125rem] rounded-[28.125rem] bg-[#7c66e3] absolute z-[-1] blur-[225px];
