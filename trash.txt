@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Memoji from '../../assets/memoji.jpeg';
 import ReactIcon from '../../assets/react_img.png';
 import HtmlIcon from '../../assets/html_img.png';
@@ -8,21 +8,6 @@ import JsIcon from '../../assets/js_img.png';
 import PythonIcon from '../../assets/python_img.png';
 
 const Hero = () => {
-	const [isMobileView, setIsMobileView] = useState(false);
-
-	  useEffect(() => {
-	    const handleResize = () => {
-	      setIsMobileView(window.innerWidth <= 640); // Adjust the breakpoint as needed
-	    };
-
-	    handleResize(); // Check initially
-	    window.addEventListener('resize', handleResize); // Listen for resize events
-
-	    return () => {
-	      window.removeEventListener('resize', handleResize); // Cleanup
-	    };
-  }, []);
-
   const textVariants = {
     initial: {
       x: -500,
@@ -38,22 +23,8 @@ const Hero = () => {
     },
   };
 
-  const sliderVariants = {
-  	initial: {
-  		x: 0,
-  	},
-  	animate: {
-  		x: "-220%",
-  		transition: {
-  			repeat: Infinity,
-  			repeatType: "mirror",
-  			duration: 20,
-  		},
-  	},
-  }
-
   return (
-    <section className={`hero-container`}>
+    <section className="hero-container overflow-x-hidden md:overflow-x-scroll">
       <motion.div
         className="hero-content"
         variants={textVariants}
@@ -107,14 +78,12 @@ const Hero = () => {
             </a>
           </motion.div>
         </motion.div>
-      </motion.div>
-       <motion.div
-        className="slidingContainer w-[50%] z-[-2] font-bold absolute text-[50vh] bottom-[-120px] whitespace-nowrap text-[#ffffff09]"
-        variants={sliderVariants}
-        initial="initial"
-        animate="animate"
-      >
-      	Creative Web Developer
+        <motion.div
+          className="slidingContainer absolute text-[50vh] bottom-[-120px] whitespace-nowrap text-[#ffffff09]"
+          variants={textVariants}
+        >
+          Creative Web Developer
+        </motion.div>
       </motion.div>
       <div className="flex-1 flex flex-col items-center gap-[1rem] md:gap-[2rem] my-[2rem] lg:mt-[2rem] hero-img">
         <div>

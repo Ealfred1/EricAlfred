@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer components {
   body {
     @apply bg-[#060417] text-white w-full overflow-x-hidden;
@@ -43,7 +47,13 @@
   }
 
   .hero-container {
-    @apply flex items-center relative flex-col lg:flex-row;
+    @apply flex items-center mb-48 relative flex-col lg:flex-row;
+  }
+
+  @media screen and (max-width: 640px) {
+    .hero-container {
+      @apply overflow-x-hidden;
+    }
   }
 
   .hero-container::after, .hero-container::before {
@@ -86,5 +96,9 @@
 
   .hero-img > div img:hover, .tech-icon img:hover {
     @apply translate-y-[-0.5rem];
+  }
+
+  .title {
+    @apply flex gap-[50px] items-center; 
   }
 }

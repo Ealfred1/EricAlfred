@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
+import Services from './components/Services/Services'
 
 const App = () => {
 
@@ -8,8 +9,9 @@ const App = () => {
     <>
       <div className="w-full h-screen">
         <Navbar />
-        <div className="max-w-5xl mx-auto elative px-4">
+        <div className="max-w-5xl mx-auto relative px-4">
           <Hero />
+          <Services />
         </div>
       </div>
     </>
