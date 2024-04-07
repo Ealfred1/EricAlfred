@@ -98,7 +98,20 @@ html {
     @apply translate-y-[-0.5rem];
   }
 
-  .title {
-    @apply flex gap-[50px] items-center; 
+  .span:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 1px #6852ba;
+  }
+
+  .services-box {
+    @apply bg-[rgba(22,17,47,0.398)] text-[#ffffff99] py-[65px] px-[27px] border border-[#6751b9] rounded-xl max-w-[369px] h-[240px] lg:py-[100px] lg:px-[49px] lg:max-w-[641px] lg:h-[416px] shrink-0;
+  }
+
+  .services-box h2 {
+    @apply font-semibold text-white text-[20px] leading-[24.6px] max-w-[156px] lg:max-w-[312px] lg:text-[40px] lg:leading-[49.2px];
+  }
+
+  .services-box p {
+    @apply font-normal text-[16.52px] leading-[19.5px] mt-4 max-w-[308px] lg:mt-[27px] lg:max-w-[466px] lg:leading-[30px] lg:text-[20px];
   }
 }
