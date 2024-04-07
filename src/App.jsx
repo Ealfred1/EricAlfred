@@ -9,7 +9,7 @@ const App = () => {
     <>
       <div className="w-full h-screen">
         <Navbar />
-        <div className="max-w-5xl mx-auto relative px-4">
+        <div className="max-w-5xl mx-auto relative px-4 overflow-x-hidden">
           <Hero />
           <Services />
         </div>
