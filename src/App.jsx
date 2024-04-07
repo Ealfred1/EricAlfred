@@ -8,7 +8,7 @@ const App = () => {
     <>
       <div className="w-full h-screen">
         <Navbar />
-        <div className="max-w-5xl mx-auto relative px-5">
+        <div className="max-w-5xl mx-auto elative px-4">
           <Hero />
         </div>
       </div>
