@@ -19,9 +19,9 @@ const Navbar = () => {
 
 					<ul className="flex items-center gap-2 space-x-10 hidden lg:flex">
 						<li className="navlink"><a href="#home">Home</a></li>
-						<li className="navlink"><a href="#skills">Skills</a></li>
 						<li className="navlink"><a href="#services">Services</a></li>
 						<li className="navlink"><a href="#projects">Projects</a></li>
+						<li className="navlink"><a href="#skills">Skills</a></li>
 						<li className="navlink"><a href="#contact">Contact Me</a></li>
 					</ul>
 					

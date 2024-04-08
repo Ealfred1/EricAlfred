@@ -53,7 +53,7 @@ const Hero = () => {
   }
 
   return (
-    <section className={`hero-container`}>
+    <section id="home" className={`hero-container`}>
       <motion.div
         className="hero-content"
         variants={textVariants}
@@ -82,7 +82,7 @@ const Hero = () => {
           variants={textVariants}
         >
           <motion.div
-            className="flex items-center justify-center border border-[#7e61e7] rounded-full h-[2.5rem] w-[2.5rem]"
+            className="flex hover:translate-y-1 items-center justify-center border border-[#7e61e7] rounded-full h-[2.5rem] w-[2.5rem]"
             variants={textVariants}
           >
             <a href="https://m.facebook.com/profile.php?id=100086285746377">

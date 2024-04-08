@@ -20,6 +20,7 @@ const Services = () => {
 
     return (
         <motion.section
+            id="services"
             className="services-container pb-3 mb-48 flex items-center flex-col justify-between"
             initial="hidden"
             animate={isInView ? 'visible' : 'hidden'}

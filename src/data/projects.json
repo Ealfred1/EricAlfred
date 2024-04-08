@@ -1,0 +1,46 @@
+[
+	{
+		"id": 1,
+		"title": "Dancers4Life Club",
+		"description": "Discover a World of Dance",
+		"img": "../../assets/dancers.png",
+		"stack": "ReactJs + TailwindCSS + Stripe"
+
+	},
+	{
+		"id": 2,
+		"title": "Taskify",
+		"description": "Efficient Task Management App [In progress]",
+		"img": "../../assets/taskify.png",
+		"stack": "ReactJs + TailwindCSS + Django"
+	},
+	{
+		"id": 3,
+		"title": "VtuHub",
+		"description": "A VTU platform",
+		"img": "../../assets/vtuhub.png",
+		"stack": "HTML + TailwindCSS + JavaScript + Django + PayStack"
+	},
+	{
+		"id": 4,
+		"title": "Winsmart",
+		"description": "Deriv Seminar Registration Platform",
+		"img": "../../assets/winsmart.png",
+		"stack": "ReactJs + TailwindCSS + Django"
+	},
+	{
+		"id": 5,
+		"title": "FoodHub",
+		"description": "Restaurant Page [Test]",
+		"img": "../../assets/foodhub.png",
+		"stack": "HTML + CSS + JavaScript"
+	},
+	{
+		"id": 6,
+		"title": "EdAI",
+		"description": "AI-Powered E-Learning Platform [Pending]",
+		"img": "../../assets/edai.png",
+		"stack": "HTML + CSS + JavaScript"
+	}
+
+]
