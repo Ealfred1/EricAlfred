@@ -25,7 +25,7 @@ const Services = () => {
 	const isInView = useInView(ref, {margin: "-100px"})
 
 	return (
-		<motion.section className="services-container pb-3 mb-48 flex items-center flex-col justify-between" variants={variants} initial="initial" ref={ref} animate={isInView && "animate"}>
+		<motion.section className="services-container pb-3 mb-48 flex items-center flex-col justify-between" variants={variants} initial="initial" whileInView="animate">
 			<motion.div className="mb-[2rem] flex-[2] flex flex-col items-center" variants={variants} >
 				<motion.div className="flex">
 					<h1 className="text-[2rem] md:text-6xl font-bold">The<span className="span hover:text-[#6852ba] duration-200"> Services</span> I Render</h1>
