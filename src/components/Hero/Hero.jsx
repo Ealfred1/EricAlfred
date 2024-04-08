@@ -82,11 +82,11 @@ const Hero = () => {
           variants={textVariants}
         >
           <motion.div
-            className=" flex items-center justify-center border border-[#7e61e7] rounded-full h-[2.5rem] w-[2.5rem] relative"
+            className="flex items-center justify-center border border-[#7e61e7] rounded-full h-[2.5rem] w-[2.5rem]"
             variants={textVariants}
           >
             <a href="https://m.facebook.com/profile.php?id=100086285746377">
-              <span className="pi pi-facebook"></span>
+              <span className="pi pi-facebook text-center text-[#a993fe]"></span>
             </a>
           </motion.div>
 
@@ -95,7 +95,7 @@ const Hero = () => {
             variants={textVariants}
           >
             <a href="">
-              <span className="pi pi-twitter"></span>
+              <span className="pi pi-twitter text-center text-[#a993fe]"></span>
             </a>
           </motion.div>
           <motion.div
@@ -103,7 +103,7 @@ const Hero = () => {
             variants={textVariants}
           >
             <a href="">
-              <span className="pi pi-linkedin"></span>
+              <span className="pi pi-linkedin text-center text-[#a993fe]"></span>
             </a>
           </motion.div>
         </motion.div>

@@ -1,0 +1,33 @@
+[
+	{
+		"id": 1,
+		"title": "Responsive Web Design",
+		"description": "Crafting visually stunning and user friendly websites optimized for seamless viewing across all devices and screen sizes"
+	},
+	{
+		"id": 2,
+		"title": "Custom Web Development",
+		"description": "Building bespoke web solutions tailored to your unique business needs, from simple landing pages to complex web applications"
+	},
+	{
+		"id": 3,
+		"title": "UI/UX Design",
+		"description": "Designing intuitive and engaging user interfaces that enhance user experience and drive conversions"
+	},
+	{
+		"id": 4,
+		"title": "Frontend Development",
+		"description": "Implementing pixel-perfect frontend solutions using cutting-edge technologies like React to bring to bring designs to life"
+	},
+	{
+		"id": 5,
+		"title": "Website Optimization",
+		"description": "Improving website performance through Optimization techniques"
+	},
+	{
+		"id": 6,
+		"title": "API Integration",
+		"description": "Seamlessly integrating external APIs to enhance functionality and streamline processes"
+	}
+
+]
