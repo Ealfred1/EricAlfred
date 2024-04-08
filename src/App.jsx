@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import Services from './components/Services/Services'
+import Projects from './components/Projects/Projects'
 
 const App = () => {
 
@@ -12,6 +13,7 @@ const App = () => {
         <div className="max-w-5xl mx-auto relative px-4">
           <Hero />
           <Services />
+          <Projects />
         </div>
       </div>
     </>
