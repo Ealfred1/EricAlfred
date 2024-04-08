@@ -5,7 +5,7 @@ import servicesData from '../../data/services.json';
 
 const Services = () => {
     const [isInView, setIsInView] = useState(false);
-    const { ref, inView } = useInView();
+    const { ref, inView } = useInView({ threshold: 0.1 });
 
     useEffect(() => {
         if (inView) {
@@ -14,8 +14,8 @@ const Services = () => {
     }, [inView]);
 
     const animationVariants = {
-        hidden: { opacity: 0, y: 100 },
-        visible: { opacity: 1, y: 0, transition: { duration: 1, staggerChildren: 0.1 } },
+        hidden: { opacity: 0, x: -500, y: 100 },
+        visible: { opacity: 1, x: 0, y: 0, transition: { duration: 1, staggerChildren: 0.1 } },
     };
 
     return (
