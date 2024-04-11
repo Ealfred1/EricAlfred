@@ -29,7 +29,7 @@ const SingleItem = ({ item }) => {
             		ref={ref}
 					>
 					<div className="flex-1 h-[15rem]">						
-						<img src={item.img} alt={item.title} className="w-full h-full object-cover rounded-xl" />
+						<img src="/src/assets/taskify.png" alt={item.title} className="w-full h-full object-cover rounded-xl" />
 					</div>
 					<div className="text-container flex-1 flex flex-col gap-[20px] z-[2]">
 						<h2 className="text-[2rem] font-bold">{ item.title }</h2>
