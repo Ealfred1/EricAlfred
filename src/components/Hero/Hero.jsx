@@ -9,7 +9,6 @@ import PythonIcon from '../../assets/python_img.png';
 
 const Hero = () => {
 	const [isMobileView, setIsMobileView] = useState(false);
-  console.log('image', JsIcon)
 
 	  useEffect(() => {
 	    const handleResize = () => {

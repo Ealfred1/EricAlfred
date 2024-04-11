@@ -12,7 +12,7 @@
 		"id": 2,
 		"title": "Taskify",
 		"description": "Efficient Task Management App [In progress]",
-		"img": "/src/assets/taskify.png",
+		"img": "/assets/taskify.png",
 		"stack": "ReactJs + TailwindCSS + Django",
 		"link": "https://taskify-fr.vercel.app"
 	},
