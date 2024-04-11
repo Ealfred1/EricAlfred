@@ -3,7 +3,7 @@
 		"id": 1,
 		"title": "Dancers4Life Club",
 		"description": "Discover a World of Dance",
-		"img": "/src/assets/dancers.png",
+		"img": "/assets/dancers.png",
 		"stack": "ReactJs + TailwindCSS + Stripe",
 		"link": "https://dancers4life-club.vercel.app"
 
@@ -12,7 +12,7 @@
 		"id": 2,
 		"title": "Taskify",
 		"description": "Efficient Task Management App [In progress]",
-		"img": "../../assets/taskify.png",
+		"img": "./src/assets/taskify.png",
 		"stack": "ReactJs + TailwindCSS + Django",
 		"link": "https://taskify-fr.vercel.app"
 	},
@@ -20,7 +20,7 @@
 		"id": 3,
 		"title": "VtuHub",
 		"description": "A VTU platform",
-		"img": "/src/assets/vtuhub.png",
+		"img": "./src/assets/vtuhub.png",
 		"stack": "HTML + TailwindCSS + JavaScript + Django + PayStack",
 		"link": "https://www.vtuhub.online"
 	},
