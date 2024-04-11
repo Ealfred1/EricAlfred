@@ -4,7 +4,8 @@
 		"title": "Dancers4Life Club",
 		"description": "Discover a World of Dance",
 		"img": "/src/assets/dancers.png",
-		"stack": "ReactJs + TailwindCSS + Stripe"
+		"stack": "ReactJs + TailwindCSS + Stripe",
+		"link": "https://dancers4life-club.vercel.app"
 
 	},
 	{
@@ -12,35 +13,40 @@
 		"title": "Taskify",
 		"description": "Efficient Task Management App [In progress]",
 		"img": "/src/assets/taskify.png",
-		"stack": "ReactJs + TailwindCSS + Django"
+		"stack": "ReactJs + TailwindCSS + Django",
+		"link": "https://taskify-fr.vercel.app"
 	},
 	{
 		"id": 3,
 		"title": "VtuHub",
 		"description": "A VTU platform",
 		"img": "/src/assets/vtuhub.png",
-		"stack": "HTML + TailwindCSS + JavaScript + Django + PayStack"
+		"stack": "HTML + TailwindCSS + JavaScript + Django + PayStack",
+		"link": "https://www.vtuhub.online"
 	},
 	{
 		"id": 4,
 		"title": "Winsmart",
 		"description": "Deriv Seminar Registration Platform",
 		"img": "/src/assets/winsmart.png",
-		"stack": "ReactJs + TailwindCSS + Django"
+		"stack": "ReactJs + TailwindCSS + Django",
+		"link": "https://winsmart-academy.vercel.app"
 	},
 	{
 		"id": 5,
 		"title": "FoodHub",
 		"description": "Restaurant Page [Test]",
 		"img": "/src/assets/foodhub.png",
-		"stack": "HTML + CSS + JavaScript"
+		"stack": "HTML + CSS + JavaScript",
+		"link": "https://rosy-iota.vercel.app"
 	},
 	{
 		"id": 6,
 		"title": "EdAI",
 		"description": "AI-Powered E-Learning Platform [Pending]",
 		"img": "/src/assets/edai.png",
-		"stack": "HTML + CSS + JavaScript"
+		"stack": "HTML + CSS + JavaScript",
+		"link": "https://edai.onrender.com"
 	}
 
 ]

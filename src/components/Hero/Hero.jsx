@@ -67,7 +67,7 @@ const Hero = () => {
           Crafting Digital Experiences with Passion
         </motion.h2>
         <motion.p
-          className="text-[0.8rem] leading-[1.3rem] w-auto text-center lg:text-left lg:w-[80%] md:text-[0.9rem] md:leading-[1.6rem] lg:text-[1rem] font-semibold lg:leading-[2rem]"
+          className="text-[0.8rem] leading-[1.3rem] w-auto text-center lg:text-left lg:w-[80%] md:text-[0.9rem] md:leading-[1.6rem] font-semibold lg:leading-[2rem]"
           variants={textVariants}
         >
           Passionate Frontend Developer and Designer | Transforming ideas into
