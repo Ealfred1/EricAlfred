@@ -119,4 +119,15 @@ html {
   .services-box p {
     @apply font-normal text-[15.52px] leading-[23.5px] mt-4 max-w-[308px] lg:mt-[27px] lg:max-w-[466px] lg:leading-[30px] lg:text-[20px];
   }
+
+  .demo-btn {
+    @apply border-none rounded-3xl p-[10px] w-48 outline-none z-[6];
+    background: linear-gradient(90deg, #a993fe -0.13%,  #7e61e7 99.87%);
+  }
+
+  .demo-btn:hover {
+    background: rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    box-shadow: 0 0 5px #a99ef2, 0 0 8.2px #6751b9;
+  }
 }
