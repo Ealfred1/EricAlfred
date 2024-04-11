@@ -82,7 +82,7 @@ const Hero = () => {
           variants={textVariants}
         >
           <motion.div
-            className="flex hover:translate-y-1 items-center justify-center border border-[#7e61e7] rounded-full h-[2.5rem] w-[2.5rem]"
+            className="flex hover:translate-y-1 items-center justify-center text-center border border-[#7e61e7] rounded-full h-[2rem] w-[2rem]"
             variants={textVariants}
           >
             <a href="https://m.facebook.com/profile.php?id=100086285746377">
@@ -91,7 +91,7 @@ const Hero = () => {
           </motion.div>
 
           <motion.div
-            className=" flex items-center justify-center border border-[#7e61e7] rounded-full h-[2.5rem] w-[2.5rem] relative"
+            className=" flex items-center justify-center border border-[#7e61e7] rounded-full h-[2rem] w-[2rem] text-center relative"
             variants={textVariants}
           >
             <a href="">
@@ -99,7 +99,7 @@ const Hero = () => {
             </a>
           </motion.div>
           <motion.div
-            className=" flex items-center justify-center border border-[#7e61e7] rounded-full h-[2.5rem] w-[2.5rem] relative"
+            className=" flex items-center justify-center border border-[#7e61e7] rounded-full h-[2rem] w-[2rem] text-center relative"
             variants={textVariants}
           >
             <a href="">
