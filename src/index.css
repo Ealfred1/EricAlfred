@@ -53,17 +53,17 @@ html {
 
   @media screen and (max-width: 640px) {
     .hero-container {
-      @apply overflow-x-hidden;
+      @apply overflow-x-hidden -mx-3;
     }
   }
 
   .hero-container::after, .hero-container::before {
     content: '';
-    @apply md:w-[18rem] md:h-[18rem] lg:w-[28.125rem] lg:h-[28.125rem] rounded-[28.125rem] bg-[#7c66e3] absolute z-[-1] blur-[225px];
+    @apply w-[12rem] h-[12rem] md:w-[18rem] md:h-[18rem] lg:w-[28.125rem] lg:h-[28.125rem] rounded-[28.125rem] bg-[#7c66e3] absolute z-[-1] blur-[225px];
   }
 
   .hero-container::after {
-    @apply md:top-0 md:left-0 lg:top-[-3rem] lg:left-[-5rem];
+    @apply top-[-1rem] md:top-0 md:left-0 lg:top-[-3rem] lg:left-[-5rem];
   }
 
   .hero-container::before {
@@ -97,6 +97,10 @@ html {
 
   .hero-img > div img:hover, .tech-icon img:hover {
     @apply translate-y-[-0.5rem];
+  }
+
+  .social-icon {
+    @apply grid place-content-center border-2 border-[#7e61e7] rounded-full h-[2.2rem] w-[2.2rem];
   }
 
   .span:nth-child(1) {

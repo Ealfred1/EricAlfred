@@ -43,7 +43,7 @@ const Hero = () => {
   		x: 0,
   	},
   	animate: {
-  		x: "-220%",
+  		x: "-500%",
   		transition: {
   			repeat: Infinity,
   			repeatType: "mirror",
@@ -82,34 +82,34 @@ const Hero = () => {
           variants={textVariants}
         >
           <motion.div
-            className="flex hover:translate-y-1 items-center justify-center text-center border border-[#7e61e7] rounded-full h-[2rem] w-[2rem]"
+            className="social-icon"
             variants={textVariants}
           >
-            <a href="https://m.facebook.com/profile.php?id=100086285746377">
+            <a href="https://m.facebook.com/profile.php?id=100086285746377" className='grid place-content-center'>
               <span className="pi pi-facebook text-center text-[#a993fe]"></span>
             </a>
           </motion.div>
 
           <motion.div
-            className=" flex items-center justify-center border border-[#7e61e7] rounded-full h-[2rem] w-[2rem] text-center relative"
+            className="social-icon"
             variants={textVariants}
           >
-            <a href="">
+            <a href="" className="grid place-content-center">
               <span className="pi pi-twitter text-center text-[#a993fe]"></span>
             </a>
           </motion.div>
           <motion.div
-            className=" flex items-center justify-center border border-[#7e61e7] rounded-full h-[2rem] w-[2rem] text-center relative"
+            className="social-icon"
             variants={textVariants}
           >
-            <a href="">
-              <span className="pi pi-linkedin text-center text-[#a993fe]"></span>
+            <a href="" className="grid place-content-center">
+              <span className="pi pi-linkedin text-[#a993fe]"></span>
             </a>
           </motion.div>
         </motion.div>
       </motion.div>
        <motion.div
-        className="slidingContainer w-[50%] z-[-2] font-bold absolute text-[50vh] bottom-[-120px] whitespace-nowrap text-[#ffffff09]"
+        className="slidingContainer w-[50%] z-[-2] font-bold absolute text-[10vh] md:text-[30vh] lg:text-[50vh] bottom-[-20px] md:bottom-[-50px] lg:bottom-[-120px] whitespace-nowrap text-[#ffffff09]"
         variants={sliderVariants}
         initial="initial"
         animate="animate"
