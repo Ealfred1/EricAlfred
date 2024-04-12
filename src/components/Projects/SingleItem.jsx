@@ -11,7 +11,7 @@ const SingleItem = ({ item }) => {
     };
 
     return (
-        <section className="py-36">
+        <section className="py-36 overflow-x-hidden">
             <div className="container flex items-center justify-center w-full h-full">
                 <motion.div
                     className="max-w-5xl h-full mx-auto flex gap-[50px] flex-col md:flex-row md:items-center md:justify-center px-2"
