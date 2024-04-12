@@ -16,8 +16,8 @@ const Projects = () => {
 
 	return (
 		<section id="projects" className="project-container relative" ref={ref}>
-		<div className="progress sticky top-0 left-0 pt-[50px] text-center text-white text-[2rem] md:text-6xl font-bold bg-transparent backdrop-blur-3xl z-[1000]">
-			<h2 className="">Featured Works</h2>
+		<div className="progress sticky top-0 left-0 pt-[50px] text-center text-white text-[2rem] md:text-6xl font-bold bg-[rgba(0,0,0,0.2)] backdrop-blur-3xl z-[1000] rounded-md">
+			<h2 className="">Some of My Works</h2>
 			<motion.div style={{ scaleX }} className="progress-bar mt-3 h-[8px] rounded-[2rem] bg-[#6751b9]"></motion.div>
 		</div>
 
