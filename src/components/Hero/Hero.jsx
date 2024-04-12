@@ -109,7 +109,7 @@ const Hero = () => {
         </motion.div>
       </motion.div>
        <motion.div
-        className="slidingContainer w-[50%] z-[-2] font-bold absolute text-[10vh] md:text-[30vh] lg:text-[50vh] bottom-[-20px] md:bottom-[-50px] lg:bottom-[-120px] whitespace-nowrap text-[rgba(255,255,255,0.2)] md:text-[#ffffff09]"
+        className="slidingContainer w-[50%] z-[-2] font-bold absolute text-[10vh] md:text-[30vh] lg:text-[50vh] bottom-[-20px] md:bottom-[-50px] lg:bottom-[-120px] whitespace-nowrap text-[rgba(255,255,255,0.1)] md:text-[#ffffff09]"
         variants={sliderVariants}
         initial="initial"
         animate="animate"

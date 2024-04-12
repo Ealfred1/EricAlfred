@@ -53,7 +53,7 @@ html {
 
   @media screen and (max-width: 640px) {
     .hero-container {
-      @apply overflow-x-hidden;
+      @apply overflow-x-hidden -mx-3 px-3;
     }
   }
 
