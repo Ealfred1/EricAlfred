@@ -11,7 +11,7 @@
 	{
 		"id": 2,
 		"title": "Taskify",
-		"description": "Efficient Task Management App [In progress]",
+		"description": "Efficient Task Management App [ In progress ]",
 		"img": "/assets/taskify.png",
 		"stack": "ReactJs + TailwindCSS + Django",
 		"link": "https://taskify-fr.vercel.app"
@@ -35,7 +35,7 @@
 	{
 		"id": 5,
 		"title": "FoodHub",
-		"description": "Restaurant Page [Test]",
+		"description": "Restaurant Page [ Test ]",
 		"img": "/assets/foodhub.png",
 		"stack": "HTML + CSS + JavaScript",
 		"link": "https://rosy-iota.vercel.app"
@@ -43,7 +43,7 @@
 	{
 		"id": 6,
 		"title": "EdAI",
-		"description": "AI-Powered E-Learning Platform [Pending]",
+		"description": "AI-Powered E-Learning Platform [ Pending ]",
 		"img": "/assets/edai.png",
 		"stack": "HTML + CSS + JavaScript",
 		"link": "https://edai.onrender.com"

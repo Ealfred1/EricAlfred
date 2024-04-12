@@ -4,14 +4,7 @@ import { useInView } from 'react-intersection-observer';
 import servicesData from '../../data/services.json';
 
 const Services = () => {
-    const [isInView, setIsInView] = useState(false);
-    const { ref, inView } = useInView({ threshold: 0.1 });
-
-    useEffect(() => {
-        if (inView) {
-            setIsInView(true);
-        }
-    }, [inView]);
+    const { ref, inView } = useInView();
 
     const animationVariants = {
         hidden: { opacity: 0, y: 300 },
@@ -23,7 +16,7 @@ const Services = () => {
             id="services"
             className="services-container pb-3 mb-48 flex items-center flex-col justify-between"
             initial="hidden"
-            animate={isInView ? 'visible' : 'hidden'}
+            animate={inView ? 'visible' : 'hidden'}
             ref={ref}
         >
             <div className="mb-[2rem] flex-[2] flex flex-col items-center">
