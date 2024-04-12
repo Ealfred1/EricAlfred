@@ -53,7 +53,7 @@ html {
 
   @media screen and (max-width: 640px) {
     .hero-container {
-      @apply overflow-x-hidden -mx-2;
+      @apply overflow-x-hidden -mx-1;
     }
   }
 
@@ -121,7 +121,7 @@ html {
   }
 
   .demo-btn {
-    @apply border-none rounded-3xl p-[10px] w-48 outline-none grid place-content-center;
+    @apply border-none rounded-3xl py-[14px] px-[10px] w-48 outline-none grid place-content-center;
     background: linear-gradient(90deg, #a993fe -0.13%,  #7e61e7 99.87%);
   }
 

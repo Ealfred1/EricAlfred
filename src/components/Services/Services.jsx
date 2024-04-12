@@ -8,7 +8,7 @@ const Services = () => {
 
     const animationVariants = {
         hidden: { opacity: 0, y: 300 },
-        visible: { opacity: 1, y: 0, transition: { duration: 1, staggerChildren: 0.1 } },
+        visible: { opacity: 1, y: 0, transition: { duration: 1, staggerChildren: 0.2 } },
     };
 
     return (
