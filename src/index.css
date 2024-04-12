@@ -100,7 +100,7 @@ html {
   }
 
   .social-icon {
-    @apply grid place-content-center border-2 border-[#7e61e7] rounded-full h-[2.2rem] w-[2.2rem];
+    @apply grid place-content-center border-2 border-[#7e61e7] rounded-full h-[2.2rem] w-[2.2rem] hover:bg-purple-900 duration-300
   }
 
   .span:nth-child(1) {
