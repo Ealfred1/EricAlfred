@@ -9,7 +9,7 @@ const SkillInfoCard = ({ heading, skills }) => {
 					<React.Fragment key={`skills_${index}`}>
 						<div className="skill-info flex items-center justify-between">
 							<p className="">{item.skill}</p>
-							<p className="percentage text-[#ad8cfa]">{item.percentage}</p>
+							{/* <p className="percentage text-[#ad8cfa]">{item.percentage}</p> */}
 						</div>
 
 						<div className="skill-progress-bg w-full h-[0.5rem] bg-[#382e68] rounded-[0.5rem] my-[1rem] overflow-hidden">
