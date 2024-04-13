@@ -21,7 +21,7 @@ This portfolio showcases my work as a web developer. It includes projects that I
 
 - **Responsive Design**: The portfolio is designed to be fully responsive across all devices.
 - **Showcase Projects**: Detailed sections for each project, including descriptions, technologies used, and links to demos or repositories.
-- **Smooth Animations**: Utilizes Framer Motion and AOS for smooth animations throughout the site.
+- **Smooth Animations**: Utilizes Framer Motion for smooth animations throughout the site.
 - **Contact Form**: Users can reach out to me directly through a contact form.
 
 ## Technologies Used
