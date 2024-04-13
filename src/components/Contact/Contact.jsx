@@ -21,7 +21,7 @@ const Contact = () => {
 	return (
 		<motion.section className="contact-container my-[4rem] relative" id="contact" variants={variants} initial="initial" whileInView="animate">
 			<motion.h4 className="text-lg font-bold mb-[1rem] text-gray-500" variants={variants}>Have Something In Mind?</motion.h4>
-			<motion.h2 className="text-5xl font-bold mb-[1rem] lg:mb-[3rem]" variants={variants}>Let's Work Together</motion.h2>
+			<motion.h2 className="text-5xl font-bold mb-[1rem] lg:mb-[3rem]" variants={variants}>Let's Bring It To Life</motion.h2>
 
 			<motion.div className="contact-content flex flex-col-reverse lg:flex-row gap-[3rem]" variants={variants}>
 				<motion.div className="flex-1" variants={variants}>
