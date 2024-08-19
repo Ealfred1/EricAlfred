@@ -47,6 +47,14 @@
 		"img": "/assets/edai.png",
 		"stack": "HTML + CSS + JavaScript",
 		"link": "https://edai.onrender.com"
+	},
+	{
+		"id": 7,
+		"title": "AgigPay",
+		"description": "Content and Social Media Advertising",
+		"img": "/assets/adgigpay.png",
+		"stack": "ReactJs + TailwindCSS + Django",
+		"link": "https://adgigpay.com.ng"
 	}
 
 ]
