@@ -6,17 +6,17 @@ export const SKILLS = [
 			{ skill: "HTML5", percentage: "100%" },
 			{ skill: "CSS3 ", percentage: "100%" },
 			{ skill: "TailwindCSS", percentage: "99%" },
-			{ skill: "JavaScript", percentage: "98%" },
-			{ skill: "ReactJS", percentage: "100%" },
+			{ skill: "JavaScript", percentage: "94%" },
+			{ skill: "ReactJS", percentage: "91%" },
 		],
 	},
 	{
 		title: "Backend",
 		icon: "pi pi-cog pi-spin skill-img",
 		skills: [
-			{ skill: "Python", percentage: "98%" },
-			{ skill: "Django ", percentage: "99%" },
-			{ skill: "Django Rest Framework", percentage: "100%" },
+			{ skill: "Python", percentage: "90%" },
+			{ skill: "Django ", percentage: "98%" },
+			{ skill: "Django Rest Framework", percentage: "89%" },
 		],
 	},
 	{
