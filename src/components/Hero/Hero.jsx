@@ -61,13 +61,13 @@ const Hero = () => {
         animate="animate"
       >
         <motion.h2
-          className="text-[2.2rem] leading-[3rem] md:text-[3rem] text-center lg:text-left mt-[3rem] lg:mt-0 md:leading-[4rem] lg:text-[3.8rem] font-bold mb-[1.5rem] lg:leading-[5rem]"
+          className="text-[2.2rem] leading-[3rem] md:text-[3rem] text-center lg:text-left mt-[3rem] lg:-mt-[5rem] md:leading-[4rem] lg:text-[3.8rem] font-bold mb-[1.5rem] lg:leading-[5rem]"
           variants={textVariants}
         >
           Crafting Digital Experiences with Passion
         </motion.h2>
         <motion.p
-          className="text-[0.8rem] leading-[1.3rem] w-auto text-center lg:text-left lg:w-[80%] md:text-[0.9rem] md:leading-[1.6rem] font-semibold lg:leading-[2rem]"
+          className="text-[0.8rem] leading-[1.3rem] w-auto text-center lg:text-left lg:w-[80%] md:text-[0.83rem] md:leading-[1.6rem] font-semibold lg:leading-[1.6rem]"
           variants={textVariants}
         >
           Passionate Frontend Developer and Designer | Transforming ideas into
@@ -107,6 +107,7 @@ const Hero = () => {
             </a>
           </motion.div>
         </motion.div>
+
       </motion.div>
        <motion.div
         className="slidingContainer w-[50%] z-[-2] font-bold absolute text-[10vh] md:text-[30vh] lg:text-[50vh] bottom-[-20px] md:bottom-[-50px] lg:bottom-[-120px] whitespace-nowrap text-[rgba(255,255,255,0.1)] md:text-[#ffffff09]"
