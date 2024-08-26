@@ -19,7 +19,7 @@ const Footer = () => {
 	            </a>
 	          </div>
 	          <div className="social-icon">
-	            <a href="" className="grid place-content-center">
+	            <a href="https://www.linkedin.com/in/eric-alfred-6372b528a" className="grid place-content-center">
 	              <span className="pi pi-linkedin text-[#a993fe]"></span>
 	            </a>
 	          </div>
