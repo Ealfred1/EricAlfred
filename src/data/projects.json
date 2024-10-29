@@ -55,6 +55,13 @@
 		"img": "/assets/adgigpay.png",
 		"stack": "ReactJs + TailwindCSS + Django",
 		"link": "https://adgigpay.com.ng"
+	},
+	{
+		"id": 8,
+		"title": "Kap",
+		"description": "Social Media Application",
+		"img": "/assets/kap.png",
+		"stack": "ReactJS + GSAP + TailwindCSS"
 	}
 
 ]
