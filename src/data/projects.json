@@ -61,7 +61,24 @@
 		"title": "Kap",
 		"description": "Social Media Application",
 		"img": "/assets/kap.png",
-		"stack": "ReactJS + GSAP + TailwindCSS"
+		"stack": "ReactJS + GSAP + TailwindCSS",
+		"link": "https://kap-tau.vercel.app"
+	},
+	{
+		"id": 9,
+		"title": "DataEase",
+		"description": "Featured VTU Application",
+		"img": "/assets/dataeas.png",
+		"stack": "ReactJS + GSAP + TailwindCSS",
+		"link": "https://dataease.com.ng"
+	},
+	{
+		"id": 10,
+		"title": "TheSMSPlug",
+		"description": " SMS platform",
+		"img": "/assets/tsp.png",
+		"stack": "ReactJS + Framer Motion + TailwindCSS",
+		"link": "https://tsp-qnbb.onrender.com"
 	}
 
 ]
