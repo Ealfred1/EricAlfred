@@ -15,7 +15,7 @@ const App = () => {
       <div className="w-full h-screen">
           <Cursor />
         <Navbar />
-        <div className="max-w-5xl mx-auto relative px-4 overflow-x-hidden">
+        <div className="max-w-5xl mx-auto relative px-4 ddiv">
           <Hero />
           <Services />
           <Projects />

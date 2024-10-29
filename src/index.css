@@ -51,9 +51,14 @@ html {
     @apply flex items-center mb-48 relative flex-col lg:flex-row;
   }
 
+
   @media screen and (max-width: 640px) {
     .hero-container {
       @apply -mx-3 px-3;
+    }
+
+    .ddiv {
+      @apply overflow-x-hidden;
     }
   }
 
