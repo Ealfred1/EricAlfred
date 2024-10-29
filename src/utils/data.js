@@ -32,6 +32,7 @@ export const SKILLS = [
 			{ skill: "Framer-motion", percentage: "97%" },
 			{ skill: "Figma", percentage: "99%" },
 			{ skill: "CI/CD pipelines", percentage: "89%" },
+			{ skill: "Webpack & Vite", percentage: "93%" },
 		],
 	},
 	{

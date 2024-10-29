@@ -28,6 +28,16 @@
 		"id": 6,
 		"title": "API Integration",
 		"description": "Seamlessly integrating external APIs to enhance functionality and streamline processes"
+	},
+	{
+		"id": 7,
+		"title": "Database Management",
+		"description": "Implementing and managing databases like PostgreSQL, MySQL, or MongoDB for secure data storage."
+	},
+	{
+		"id": 8,
+		"title": "Server-Side Development",
+		"description": "Developing robust server-side logic using frameworks like Flask, Django, or Spring Boot."
 	}
 
 ]
