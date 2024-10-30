@@ -5,12 +5,12 @@ import ericResume from '../../assets/eric-resume.pdf'
 
 const variants = {
 	initial: {
-		y: 500,
-		opacty: 0,
+		y: 50,
+		opacity: 0,
 	},
 	animate: {
 		y: 0,
-		opacty: 1,
+		opacity: 1,
 		transition: {
 			duration: 0.5,
 			staggerChildren: 0.1
