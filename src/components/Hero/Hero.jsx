@@ -61,7 +61,7 @@ const Hero = () => {
         animate="animate"
       >
         <motion.h2
-          className="text-[2.2rem] leading-[3rem] md:text-[3rem] text-center lg:text-left mt-[3rem] lg:-mt-[5rem] md:leading-[4rem] lg:text-[3.8rem] font-bold mb-[1.5rem] lg:leading-[5rem]"
+          className="text-[3rem] leading-[3.7rem] md:text-[3rem] text-center lg:text-left mt-[3rem] lg:-mt-[5rem] md:leading-[4rem] lg:text-[3.8rem] font-bold mb-[1.5rem] lg:leading-[5rem]"
           variants={textVariants}
         >
           Crafting Digital Experiences with Passion
