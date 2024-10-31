@@ -29,7 +29,7 @@ const Contact = () => {
 					<ContactInfoCard iconUrl="pi pi-envelope" text="alfrederic371@gmail.com" link="mailto:alfrederic371@gmail.com" />
 					<ContactInfoCard iconUrl="pi pi-github" text="https://github.com/Ealfred1" link="https://github.com/Ealfred1" />
 					<ContactInfoCard iconUrl="pi pi-phone" text="+2347010363424" link="https://wa.me/+2347010363424" />
-					<ContactInfoCard iconUrl="pi pi-file-pdf" text="Download CV" link={ericResume} attr="download" />
+					<ContactInfoCard iconUrl="pi pi-file-pdf" text="Download CV" link="https://docs.google.com/document/d/1yromcUZfz0uWzSlMLZCj68y7AYzEre9trojLWoIIUGM/edit?usp=sharing" attr="download" />
 				</motion.div>
 				<div className="" variants={variants}></div>
 			</motion.div>
